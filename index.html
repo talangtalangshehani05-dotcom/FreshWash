@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>FreshWash | Laundry Service</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="navbar">
+      <a href="#home" class="logo">
+        <span class="logo-icon">✦</span>
+        FreshWash<span>.</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#order">Place an Order</a>
+        <a href="#tracking">Track Order</a>
+      </div>
+
+      <a href="#order" class="nav-button">Book Now ↗</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HOME SECTION -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="eyebrow">✦ YOUR CLOTHES, OUR CARE</span>
+
+        <h1>
+          Laundry day,<br>
+          made <span>effortless.</span>
+        </h1>
+
+        <p>
+          Enjoy fresh, clean, and perfectly cared-for clothes
+          without the hassle. Let FreshWash take care of your laundry.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#order" class="primary-button">Order Laundry ↗</a>
+          <a href="#services" class="secondary-button">Explore Services</a>
+        </div>
+
+        <div class="hero-note">
+          <span>✓</span> Easy ordering
+          <span>✓</span> Transparent pricing
+          <span>✓</span> Order tracking
+        </div>
+      </div>
+
+      <div class="hero-image">
+  <div class="image-decoration"></div>
+
+  <div class="hero-image-card">
+    <img
+      src="images/laundry-hero.jpg"
+      alt="Fresh, neatly folded laundry"
+      class="hero-photo"
+    >
+
+    <div class="floating-card">
+      <span class="floating-icon">✦</span>
+      <div>
+        <strong>Freshness delivered</strong>
+        <small>Clean clothes, happy days.</small>
+      </div>
+    </div>
+  </div>
+</div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services-section" id="services">
+      <div class="section-heading">
+        <span class="eyebrow">WHAT WE OFFER</span>
+        <h2>Care for every <span>fabric.</span></h2>
+        <p>Choose the laundry service that works best for you.</p>
+      </div>
+
+      <div id="services-list" class="services-grid">
+        <!-- Services will be displayed by JavaScript -->
+      </div>
+    </section>
+
+    <!-- ORDER SECTION -->
+    <section class="order-section" id="order">
+      <div class="order-intro">
+        <span class="eyebrow">QUICK AND EASY</span>
+        <h2>Let's get your laundry <span>started.</span></h2>
+        <p>
+          Fill out the form and let us handle the rest.
+          Your laundry order will be saved for tracking.
+        </p>
+
+        <div class="order-benefit">
+          <span>01</span>
+          <div>
+            <strong>Choose your service</strong>
+            <small>Select the laundry service you need.</small>
+          </div>
+        </div>
+
+        <div class="order-benefit">
+          <span>02</span>
+          <div>
+            <strong>Enter your details</strong>
+            <small>Provide your name and contact number.</small>
+          </div>
+        </div>
+
+        <div class="order-benefit">
+          <span>03</span>
+          <div>
+            <strong>Track your laundry</strong>
+            <small>Check your order status anytime.</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="order-card">
+        <h3>Place Your Order</h3>
+        <p class="card-description">Enter your laundry details below.</p>
+
+        <div id="order-form"></div>
+      </div>
+    </section>
+
+    <!-- ORDER TRACKING SECTION -->
+    <section class="tracking-section" id="tracking">
+      <div class="section-heading">
+        <span class="eyebrow">STAY UPDATED</span>
+        <h2>Track your <span>laundry.</span></h2>
+        <p>Enter the contact number used when placing your order.</p>
+      </div>
+
+      <div class="tracking-card">
+        <div class="tracking-icon">⌕</div>
+        <h3>Find Your Orders</h3>
+        <p>Use your contact number to look up your laundry orders.</p>
+
+        <div id="order-tracking"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <a href="#home" class="logo">
+      <span class="logo-icon">✦</span>
+      FreshWash<span>.</span>
+    </a>
+
+    <p>Making laundry day a little easier.</p>
+
+    <small>© 2026 FreshWash Laundry Service. All rights reserved.</small>
+  </footer>
+
+  <script type="module" src="js/controller.js"></script>
+
+</body>
+</html>
